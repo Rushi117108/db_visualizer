@@ -19,3 +19,4 @@ Upload a `.sql` file and instantly visualize your database schema — tables, co
 ### Prerequisites
 - Java 17+
 - Maven 3.8+
+- Spring boot 3
