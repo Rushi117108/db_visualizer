@@ -17,6 +17,17 @@ public class ColumnInfo {
     public ColumnInfo() {
     }
 
+    public ColumnInfo(String name, String type, boolean primaryKey, boolean foreignKey, boolean nullable, boolean unique, String referencedTable, String referencedColumn) {
+        this.name = name;
+        this.type = type;
+        this.primaryKey = primaryKey;
+        this.foreignKey = foreignKey;
+        this.nullable = nullable;
+        this.unique = unique;
+        this.referencedTable = referencedTable;
+        this.referencedColumn = referencedColumn;
+    }
+
     public String getName() {
         return name;
     }

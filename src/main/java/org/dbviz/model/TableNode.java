@@ -13,6 +13,15 @@ public class TableNode {
     private int fkCount;
     private int columnCount;
 
+    public TableNode(String id, String name, List<ColumnInfo> columns, int pkCount, int fkCount, int columnCount) {
+        this.id = id;
+        this.name = name;
+        this.columns = columns;
+        this.pkCount = pkCount;
+        this.fkCount = fkCount;
+        this.columnCount = columnCount;
+    }
+
     public String getId() {
         return id;
     }
