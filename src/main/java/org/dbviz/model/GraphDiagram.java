@@ -8,6 +8,8 @@ public class GraphDiagram {
 
     private List<SchemaEdge> schemaEdges;
 
+    private String dialect;
+
     private int totalTables;
 
     private int totalRelationships;
@@ -51,6 +53,25 @@ public class GraphDiagram {
     }
 
     public void setParseWarning(String parseWarning) {
+        this.parseWarning = parseWarning;
+    }
+
+    public String getDialect() {
+        return dialect;
+    }
+
+    public void setDialect(String dialect) {
+        this.dialect = dialect;
+    }
+
+    public GraphDiagram(){};
+
+    public GraphDiagram(List<TableNode> tableNodes, List<SchemaEdge> schemaEdges, String dialect, int totalTables, int totalRelationships, String parseWarning) {
+        this.tableNodes = tableNodes;
+        this.schemaEdges = schemaEdges;
+        this.dialect = dialect;
+        this.totalTables = totalTables;
+        this.totalRelationships = totalRelationships;
         this.parseWarning = parseWarning;
     }
 }

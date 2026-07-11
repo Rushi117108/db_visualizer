@@ -13,6 +13,15 @@ public class SchemaEdge {
         return id;
     }
 
+    public SchemaEdge(String id, String source, String sourceColumn, String target, String targetColumn, String cardinality) {
+        this.id = id;
+        this.source = source;
+        this.sourceColumn = sourceColumn;
+        this.target = target;
+        this.targetColumn = targetColumn;
+        this.cardinality = cardinality;
+    }
+
     public void setId(String id) {
         this.id = id;
     }
