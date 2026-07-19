@@ -2,7 +2,7 @@
 
 A full-stack SQL schema visualization tool that parses `.sql` files and renders interactive ER diagrams with table relationships, column details, and FK mapping.
 
-**Live Demo** → [your-app.vercel.app](https://your-app.vercel.app) *(update after deployment)*
+**Live Demo** → [Db Visualizer](https://db-visualizer-frontend-sage.vercel.app/)
 
  *(add a screenshot here)*
 
@@ -154,11 +154,7 @@ db-visualizer/
 ## 🗺️ Roadmap
 
 - [ ] Click table → highlight connected relationships
-- [ ] Search / filter tables by name
-- [ ] Export diagram as PNG
 - [ ] Java / Spring Boot class diagram visualizer
-- [ ] Multiple SQL file uploads
-- [ ] Share schema via public URL
 
 ---
 
@@ -166,8 +162,3 @@ db-visualizer/
 
 Pull requests welcome! Open an issue first to discuss what you'd like to change.
 
----
-
-## 📄 License
-
-MIT
