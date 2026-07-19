@@ -4,7 +4,7 @@ A full-stack SQL schema visualization tool that parses `.sql` files and renders 
 
 **Live Demo** → [Db Visualizer](https://db-visualizer-frontend-sage.vercel.app/)
 
- *(add a screenshot here)*
+<img width="2555" height="1271" alt="Screenshot 2026-07-16 003855" src="https://github.com/user-attachments/assets/811e5284-09e4-44b3-b8fe-cd81f84dccbd" />
 
 ---
 
@@ -52,7 +52,9 @@ mvn spring-boot:run
 ```
 
 ### 3. Run the frontend
+Create a different folder for frontend
 ```bash
+git clone https://github.com/Rushi117108/db_visualizer_frontend.git
 cd frontend
 npm install --legacy-peer-deps
 npm run dev
