@@ -2,7 +2,7 @@
 
 A full-stack SQL schema visualization tool that parses `.sql` files and renders interactive ER diagrams with table relationships, column details, and FK mapping.
 
-**Live Demo** → [Db Visualizer](https://db-visualizer-frontend-sage.vercel.app/)
+**Live Demo** → [Db Visualizer](https://db-visualizer-sage.vercel.app/)
 
 <img width="2555" height="1271" alt="Screenshot 2026-07-16 003855" src="https://github.com/user-attachments/assets/811e5284-09e4-44b3-b8fe-cd81f84dccbd" />
 
